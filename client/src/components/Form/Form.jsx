@@ -2,7 +2,15 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <div>Form</div>
+    <>
+      <form>
+        <input
+          type="text"
+          name="suggestion"
+          placeholder="Got any suggestion?..."
+        />
+      </form>
+    </>
   )
 }
 
