@@ -1,8 +1,9 @@
 import React from 'react'
 import { Route, Routes } from "react-router-dom";
-import Form from './components/Form/Form';
+import SuggestionForm from './components/Form/SuggestionForm';
 import Suggestions from './components/Suggestion/Suggestions';
 import Navbar from './components/Navbar/Navbar';
+import './App.css'
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
               For temporary it is at home page  
         */}
         <Route path='/' element={<Suggestions/>}/>
-        <Route path='/form' element={<Form/>}/>
+        <Route path='/form' element={<SuggestionForm/>}/>
       </Routes>
     </div>
   )

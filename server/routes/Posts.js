@@ -12,6 +12,6 @@ router.post("/", async (req, res) => {
 
   await Suggestion.create(post);
   res.json(post);
-});
+}); 
 
 module.exports = router;
